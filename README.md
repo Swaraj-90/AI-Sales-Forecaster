@@ -12,7 +12,7 @@ An interactive web dashboard that uses a suite of AI models to forecast sales, a
 
 ## 📖 Description
 
-[cite_start]This project is a comprehensive AI Business Simulator designed to analyze e-commerce data and provide actionable business intelligence. [cite: 8] [cite_start]It transforms raw, real-world transactional data into a multi-faceted, interactive dashboard built with Streamlit that helps businesses make strategic, data-driven decisions. [cite: 30]
+This project is a comprehensive AI Business Simulator designed to analyze e-commerce data and provide actionable business intelligence. It transforms raw, real-world transactional data into a multi-faceted, interactive dashboard built with Streamlit that helps businesses make strategic, data-driven decisions.
 
 The application goes beyond simple historical analysis by leveraging a suite of advanced machine learning techniques to solve complex business problems. It serves as an all-in-one tool for a business manager to understand past performance, predict future outcomes, and model strategic decisions before implementing them.
 
@@ -20,20 +20,20 @@ The application goes beyond simple historical analysis by leveraging a suite of 
 
 This dashboard integrates several advanced AI modules to provide a holistic view of the business:
 
-* [cite_start]**AI-Powered Sales Forecasting**: Utilizes Facebook's Prophet model for robust time series forecasting, predicting sales 90 days into the future. [cite: 63]
-* [cite_start]**Explainable AI (XAI)**: Breaks down the forecast into its core components (trend, weekly seasonality, yearly seasonality), making the model's predictions transparent and understandable. [cite: 115]
-* [cite_start]**Customer Segmentation**: Employs K-Means Clustering on RFM (Recency, Frequency, Monetary) data to automatically group customers into distinct segments based on their purchasing habits. [cite: 65, 73]
-* [cite_start]**Dynamic Pricing Simulator**: Features a prescriptive analytics model that simulates how changes in price might affect sales volume and total revenue, helping to optimize pricing strategies. [cite: 28, 114]
-* [cite_start]**Real-Time External Data Integration**: Enhances the forecasting model's accuracy by incorporating real-world public search interest data from Google Trends as an external regressor. [cite: 111, 171]
+* **AI-Powered Sales Forecasting**: Utilizes Facebook's Prophet model for robust time series forecasting, predicting sales 90 days into the future.
+* **Explainable AI (XAI)**: Breaks down the forecast into its core components (trend, weekly seasonality, yearly seasonality), making the model's predictions transparent and understandable.
+* **Customer Segmentation**: Employs K-Means Clustering on RFM (Recency, Frequency, Monetary) data to automatically group customers into distinct segments based on their purchasing habits.
+* **Dynamic Pricing Simulator**: Features a prescriptive analytics model that simulates how changes in price might affect sales volume and total revenue, helping to optimize pricing strategies.
+* **Real-Time External Data Integration**: Enhances the forecasting model's accuracy by incorporating real-world public search interest data from Google Trends as an external regressor.
 
 ## 🛠️ Technology Stack
 
 * **Core Language**: Python
-* [cite_start]**Dashboard**: Streamlit [cite: 131]
-* [cite_start]**Data Manipulation**: pandas, numpy [cite: 121]
-* [cite_start]**Forecasting**: Prophet [cite: 126]
-* [cite_start]**Machine Learning**: scikit-learn (for K-Means Clustering and Regression) [cite: 125]
-* [cite_start]**Visualization**: Plotly, matplotlib, seaborn [cite: 130]
+* **Dashboard**: Streamlit
+* **Data Manipulation**: pandas, numpy
+* **Forecasting**: Prophet
+* **Machine Learning**: scikit-learn (for K-Means Clustering and Regression)
+* **Visualization**: Plotly, matplotlib
 * **API Integration**: Pytrends (for Google Trends)
 
 ## ⚙️ How to Run Locally
@@ -57,6 +57,11 @@ To run this application on your local machine, follow these steps:
     pip install -r requirements.txt
     ```
 
+4.  **Run the Streamlit Application**
+    ```bash
+    streamlit run dashboard.py
+    ```
+    The application will open in a new tab in your web browser.
 4.  **Run the Streamlit Application**
     ```bash
     streamlit run dashboard.py
