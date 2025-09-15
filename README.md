@@ -67,3 +67,8 @@ To run this application on your local machine, follow these steps:
     streamlit run dashboard.py
     ```
     The application will open in a new tab in your web browser.
+    ### A Note on the Google Trends Feature
+
+This application integrates with the live Google Trends API via the `pytrends` library. Due to rate-limiting imposed by Google, the Trends feature may sometimes be temporarily unavailable and display a "Could not retrieve data" message (specifically, an `HTTP 429` error).
+
+The dashboard is designed to handle this gracefully. If the Google Trends data is unavailable, simply **uncheck the "Enable Google Trends Integration" box** in the sidebar. All other features of the dashboard, including the core sales forecast, will remain fully functional.
